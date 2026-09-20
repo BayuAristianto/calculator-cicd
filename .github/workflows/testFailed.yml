@@ -23,6 +23,5 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
-
       - name: Run Maven CalculatorTest
-        run: mvn test -Dtest=CalculatorTest
+        run: mvn test -Dtest=CalculatorFailedTest
